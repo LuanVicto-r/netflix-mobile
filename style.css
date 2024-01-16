@@ -1,0 +1,61 @@
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+#celular {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  width: 640px;
+  height: 1070px;
+  border-radius: 75px;
+}
+
+#tela {
+
+  display: flex;
+  justify-content: center;
+  background-color: #1d1d1d;
+  border: 1px solid black;
+  width: 600px;
+  height: 1000px;
+  border-radius: 75px;
+}
+
+#imagem {
+  margin-top: 250px;
+  width: 150px;
+  height: 150px;
+}
+
+#usuario {
+  height: 50px;
+  width: 300px;
+  border: 0px;
+  position: absolute;
+  bottom: 400px;
+}
+
+#senha {
+  height: 50px;
+  width: 300px;
+  border: 0px;
+  position: absolute;
+  bottom: 325px;
+}
+
+#botao {
+    font-size: 20px;
+    position: absolute;
+    bottom: 200px ;
+    background-color: red;
+    color: white;
+    border: 0px;
+    border-radius: 10px;
+    height: 60px;
+    width: 150px;
+}
